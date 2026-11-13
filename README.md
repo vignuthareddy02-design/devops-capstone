@@ -20,3 +20,14 @@ to build automate and deploy a web application using DevOps tools
 ## Project Status
 Currently in development. 
 
+## Completed Tasks
+- Created project structure using Linux.
+- Developed a basic HTML web application.
+- Initialized Git repository.
+- Uploaded project to GitHub.
+
+## Upcoming Tasks
+- Shell scripting automation.
+- Docker containerization.
+- CI/CD pipeline.
+- AWS deployment.
