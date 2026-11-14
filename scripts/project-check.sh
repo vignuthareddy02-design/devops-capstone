@@ -30,11 +30,23 @@ show_status(){
 if [ "$status" -eq 0 ]
 then
 echo "Project status : is Ready"
+exit 0
 else
 echo "project status : need attentation"
+exit 1
+fi
+}
+check_command(){
+mkdir test-exit-folder
+if [ $? -eq 0 ]
+then
+echo "Command executed successfully"
+else
+echo "command faild"
 fi
 }
 check_app
 check_appfile
 check_docker
 show_status
+check_command
